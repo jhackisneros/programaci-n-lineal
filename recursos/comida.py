@@ -1,4 +1,6 @@
-COMIDA_TOTAL = 1200
+class Comida:
+    COMIDA_TOTAL = 1200
 
-def obtener_comida():
-    return COMIDA_TOTAL
+    @classmethod
+    def obtener_comida(cls):
+        return cls.COMIDA_TOTAL

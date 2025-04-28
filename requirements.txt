@@ -1,4 +1,5 @@
-ortools
-Scipy
-PulP
-Pyomo
+numpy
+pandas
+matplotlib
+SQLAlchemy
+tk
