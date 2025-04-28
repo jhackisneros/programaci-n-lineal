@@ -1,4 +1,4 @@
-from unidades.espadachin import Espadachin
+from unidades.espadachines import Espadachin
 from unidades.arquero import Arquero
 from unidades.jinete import Jinete
 from recursos.comida import Comida

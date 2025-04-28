@@ -1,6 +1,4 @@
-# unidades/espadachines.py
-
-class Espadachin:
+class Jinete:
     def __init__(self, nombre, ataque, defensa, coste_oro):
         self.nombre = nombre
         self.ataque = ataque
@@ -8,5 +6,4 @@ class Espadachin:
         self.coste_oro = coste_oro
 
     def poder(self):
-        """Calcula el poder total del espadachín"""
-        return self.ataque * 2 + self.defensa
+        return self.ataque * 2.5 + self.defensa * 1.5

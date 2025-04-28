@@ -1,6 +1,4 @@
 class Madera:
-    MADERA_TOTAL = 800
-
-    @classmethod
-    def obtener_madera(cls):
-        return cls.MADERA_TOTAL
+    @staticmethod
+    def obtener_madera():
+        return 800

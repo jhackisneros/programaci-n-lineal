@@ -1,5 +1,5 @@
 numpy
 pandas
 matplotlib
-SQLAlchemy
-tk
+sqlalchemy
+sqlite3; sys_platform == 'win32'

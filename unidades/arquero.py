@@ -1,6 +1,4 @@
-# unidades/jinetes.py
-
-class Jinete:
+class Arquero:
     def __init__(self, nombre, ataque, defensa, coste_oro):
         self.nombre = nombre
         self.ataque = ataque
@@ -8,5 +6,4 @@ class Jinete:
         self.coste_oro = coste_oro
 
     def poder(self):
-        """Calcula el poder total del jinete"""
-        return self.ataque * 2.5 + self.defensa * 1.5
+        return self.ataque * 1.8 + self.defensa
